@@ -47,9 +47,10 @@ def wordProblem(w,v):
                 el = Node(el, parent = ww)
                 ww.parent = w
                 if el.name == v and flag == 0:
-                    print (el)
+                    return (el)
                     flag = 1
-                    break
+        if flag == 1:
+            break
         for wo in newWords:
             if wo not in words:
                 words.append(wo)
