@@ -20,7 +20,7 @@ def selectingWords(w):
 
 #counting all the words of the right length
 def numberOfWordsFromDictionary(word):
-    return (len(dictionaryList))
+    return (len(rightwords))
 
 
 def wordProblem(w,v):
